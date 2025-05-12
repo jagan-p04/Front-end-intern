@@ -1,0 +1,42 @@
+body{
+    background-color: #f0f8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+h1{
+    color: darkblue;
+    font-size: 36px;
+}
+h2{
+    color: darkgreen;
+}
+p{
+    color: #333;
+    font-size: 18px;
+}
+img{
+    border-radius: 20px;
+}
+button{
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+button:hover{
+    color: red;
+    background-color: white;
+}
+
+@media (max-width:600px){
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+    }
+    body{
+        padding: 10px;
+        background-color: #e0ffff;
+    }
+}
